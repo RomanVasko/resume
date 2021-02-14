@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "MontserratLightItalic";
+    src: url("../fonts/Montserrat-LightItalic.ttf");
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+.title-1 {
+    font-family: MontserratBold, sans-serif;
+    font-size: 22px;
+    margin-bottom: 21px;
+}
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+
+#main-content {
+    width: 30%;
+    height: inherit;
+    background: #1e2939;
+    padding: 10px;
+    color: white;
+}
+
+#main-content-photo {
+    max-width: 360px;
+}
+
+#main-content-photo img {
+    width: 100%;
+}
+
+#main-content-description {
+    padding-left: 31px;
+    padding-top: 52px;
+}
+
+#main-content-contacts {
+    margin-bottom: 52px;
+}
+
+#main-content-contacts-text {
+    line-height: 25px;
+}
+
+#main-content-contacts-text span {
+    font-family: MontserratBold, sans-serif;
+}
+
+#main-content li {
+    margin-bottom: 9px;
+}
+
+#main-content li::marker {
+    color: #ff6b08;
+}
+
+.title-2 {
+    font-family: MontserratBold, sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#about-content {
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 89px;
+}
+
+#about-content-title {
+    font-family: MontserratBold, sans-serif;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+#about-content-title span {
+    font-size: 14px;
+}
+
+
+#about-content-description {
+    line-height: 24px;
+}
+
+#about-content-projects li {
+    line-height: 24px;
+}
+
+.title-3 {
+    text-align: center;
+    font-family: MontserratLightItalic, sans-serif;
+    margin-bottom: 5px;
+}
+
+.title-4 {
+    text-align: center;
+    font-family: MontserratBold, sans-serif;
+    margin-bottom: 5px;
+}
+
+.about-text .title-3, .about-text .title-4 {
+    text-align: unset;
+}
+
+.about-text img {
+    width: 465px;
+}
