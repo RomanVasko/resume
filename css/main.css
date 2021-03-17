@@ -29,12 +29,14 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: nowrap;
     flex-shrink: 1;
 }
 
 #main-content {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: inherit;
     background: #1e2939;
     padding: 10px;
@@ -42,11 +44,13 @@ body {
 }
 
 #main-content-photo {
-    max-width: 360px;
+    max-width: 300px;
+
 }
 
 #main-content-photo img {
     width: 100%;
+    border-radius: 5px;
 }
 
 #main-content-description {
@@ -125,26 +129,45 @@ body {
     text-align: unset;
 }
 
+#certificates {
+    max-width: 465px;
+}
+
 .about-text img {
-    width: 465px;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
     #about-content {
         padding: 10px;
     }
+
     #about-content-projects {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     #about-content-projects-list {
         display: none;
     }
+
     #ol-adaptive {
         display: block;
     }
+
     #main-content-description {
         padding: 5px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    #content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main-content, #about-content {
+        width: 100%;
     }
 }
