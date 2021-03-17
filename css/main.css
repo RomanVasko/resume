@@ -55,11 +55,11 @@ body {
 
 #main-content-description {
     padding-left: 31px;
-    padding-top: 52px;
+    padding-top: 22px;
 }
 
 #main-content-contacts {
-    margin-bottom: 52px;
+    margin-bottom: 32px;
 }
 
 #main-content-contacts-text {
@@ -86,8 +86,8 @@ body {
 
 #about-content {
     width: 70%;
-    padding-top: 50px;
-    padding-left: 89px;
+    padding-top: 30px;
+    padding-left: 79px;
 }
 
 #about-content-title {
@@ -139,7 +139,8 @@ body {
 
 @media screen and (max-width: 768px) {
     #about-content {
-        padding: 10px;
+        padding-top: 10px;
+        padding-left: 17px;
     }
 
     #about-content-projects {
@@ -156,9 +157,6 @@ body {
         display: block;
     }
 
-    #main-content-description {
-        padding: 5px;
-    }
 }
 
 @media screen and (max-width: 655px) {
@@ -170,4 +168,14 @@ body {
     #main-content, #about-content {
         width: 100%;
     }
+
+    #about-content-title {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .title-2 {
+        margin-bottom: 0;
+    }
+
 }
