@@ -101,6 +101,10 @@ body {
     line-height: 24px;
 }
 
+#ol-adaptive {
+    display: none;
+}
+
 #about-content-projects li {
     line-height: 24px;
 }
@@ -123,4 +127,24 @@ body {
 
 .about-text img {
     width: 465px;
+}
+
+@media screen and (max-width: 768px) {
+    #about-content {
+        padding: 10px;
+    }
+    #about-content-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-content-projects-list {
+        display: none;
+    }
+    #ol-adaptive {
+        display: block;
+    }
+    #main-content-description {
+        padding: 5px;
+    }
 }
