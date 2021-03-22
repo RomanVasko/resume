@@ -115,8 +115,8 @@ body {
 #about-content-projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 5px;
+    justify-content: space-around;
+    margin-bottom: 15px;
 }
 
 .project {
@@ -165,7 +165,7 @@ body {
 }
 
 .about-text img {
-    width: 100%;
+    width: 97%;
 }
 
 @media screen and (max-width: 768px) {
