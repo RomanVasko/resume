@@ -76,16 +76,19 @@ body {
     color: #ff6b08;
 }
 
-.title-2 {
+.maintitle {
     font-family: MontserratBold, sans-serif;
     font-size: 22px;
     margin-bottom: 15px;
 }
 
 #about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 70%;
     padding-top: 30px;
-    padding-left: 79px;
+    padding-left: 59px;
 }
 
 #about-content-title {
@@ -120,7 +123,7 @@ body {
     width: 200px;
     text-align: center;
     border-radius: 15px;
-    margin-bottom: 10px;
+    padding: 0 10px;
 }
 
 .project a {
@@ -141,19 +144,19 @@ body {
     box-shadow: 0 0 8px 2px #1E2939;
 }
 
-.title-3 {
+.subtitle-1 {
     text-align: center;
     font-family: MontserratLightItalic, sans-serif;
     margin-bottom: 5px;
 }
 
-.title-4 {
+.subtitle {
     text-align: center;
     font-family: MontserratBold, sans-serif;
     margin-bottom: 5px;
 }
 
-.about-text .title-3, .about-text .title-4 {
+.about-text .subtitle-1, .about-text .subtitle {
     text-align: unset;
 }
 
@@ -170,13 +173,6 @@ body {
         padding-top: 10px;
         padding-left: 17px;
     }
-
-    #about-content-projects {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
 }
 
 @media screen and (max-width: 655px) {
@@ -198,8 +194,8 @@ body {
         text-align: center;
     }
 
-    .title-2 {
-        margin-bottom: 0;
+    .main-title {
+        margin-bottom: 5px;
     }
 
 }
